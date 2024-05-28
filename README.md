@@ -1,55 +1,52 @@
 <h1 align="center">
 Next Level Week #05 - Chatty
 </h1>
+
+<div align="right">
+  Clique <a href="https://github.com/luc-ribeiro/nlw-05-chatty-node/blob/main/README-BR.md">aqui</a> para ver a versão em Português.
+</div>
 <br>
 
-## 💻 Projeto
-Este projeto foi criado durante o evento Next Level Week #05 da Rocketseat.
+## 💻 Project
+Chatty is a real-time customer service chat.
 
-O Chatty é um chat para atendimento de clientes em tempo real.
+## 🚀 Technologies
 
-## 🚀 Tecnologias
-
-- **Node.js** 
+- **Node.js**
 - **Express**
 - **TypeScript**
 - **Socket.io**
 
 <br>
 
-## :page_facing_up: Como utilizar
+## :page_facing_up: How to use
 
-Faça um clone deste repositório:
+Clone this repository:
 
 ```sh
-  $ git clone https://github.com/luc-ribeiro/nlw-05-node-chatty.git
+  $ git clone https://github.com/luc-ribeiro/nlw-05-chatty-node.git
 ```
 
-Instale as dependências:
+Install the dependencies:
 
 ```sh
-  # com npm
+  # with npm
   $ npm install
 
-  # com yarn
+  # with yarn
   $ yarn install
 ```
 
-**Caso ainda não tenha o arquivo `database.sqlite` dentro da pasta `src/database`, crie esse arquivo e rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.**
+**If you do not have the `database.sqlite` file inside the `src/database` folder, create this file and run `yarn typeorm migration:run` to create the database tables.**
 <br><br>
-Execute o comando:
+Run the command:
 
 ```sh
-  # com npm
+  # with npm
   $ npm run dev
 
-  # com yarn
+  # with yarn
   $ yarn dev
 ```
 
-Acesse o projeto em `localhost:3333`
-
-
-## :memo: License
-
-Copyright © 2020 Lucas Ribeiro / Rocketseat
+Access the project at `localhost:3333`
